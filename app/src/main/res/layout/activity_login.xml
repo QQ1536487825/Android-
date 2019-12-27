@@ -16,26 +16,6 @@
         android:layout_height="match_parent"
         tools:context=".ui.login.LoginActivity">
 
-        <RelativeLayout
-            android:layout_marginTop="50dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:id="@+id/iv_log"
-                android:layout_width="110dp"
-                android:layout_height="110dp"
-                android:background="@drawable/ic_base" />
-
-            <ImageView
-                android:layout_below="@+id/iv_log"
-                android:layout_marginTop="20dp"
-                android:layout_centerInParent="true"
-                app:srcCompat="@drawable/ic_font"
-                android:layout_width="80dp"
-                android:layout_height="30dp" />
-        </RelativeLayout>
 
         <LinearLayout
             android:padding="20dp"
@@ -90,14 +70,14 @@
                  android:onClick="send"
                     android:gravity="center"
                     android:layout_height="50dp"
-                    android:background="@drawable/edit_bg" />
+                    android:background="@color/white" />
 
             </LinearLayout>
 
             <ImageButton
                 android:id="@+id/btn_login"
                 android:layout_marginTop="63dp"
-                app:srcCompat="@drawable/login_btn"
+                android:src="@drawable/btn_login"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:onClick="loginPhone"
